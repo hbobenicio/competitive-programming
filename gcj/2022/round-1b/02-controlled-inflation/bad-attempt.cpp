@@ -26,9 +26,9 @@ int main() {
             }
 
             if (i % 2 == 0) {
-                std::sort(p, p + P);
+                sort(p, p + P);
             } else {
-                std::sort(p, p + P, greater<size_t>());
+                sort(p, p + P, greater<size_t>());
             }
 
             X.insert(end(X), p, p + P);
