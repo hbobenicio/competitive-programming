@@ -1,5 +1,5 @@
-alias cxx="clang++ -Wall -Wextra -Wpedantic -std=c++17 -g -ggdb3 -O0 -fsanitize=address,undefined -fno-omit-frame-pointer -o main"
+alias cxx="clang++ -Wall -Wextra -Wpedantic -std=c++17 -g -ggdb3 -O0 -fsanitize=address,undefined -fno-omit-frame-pointer"
 alias c="cxx main.cpp"
-alias r="./main"
+alias r="./a,out"
 alias cr="c && r"
-alias d="gdb ./main"
+alias d="gdb ./a.out"
