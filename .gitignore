@@ -28,3 +28,6 @@ main
 in
 *.in
 
+# VSCode
+/**/.vscode/
+
